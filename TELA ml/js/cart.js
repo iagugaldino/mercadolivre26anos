@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
 
-      window.location.href = resolveUrl('https://checkout.mercadopagamento.site/VCCL1O8SCXS8') + getUTMQueryString();
+      window.location.href = ('https://checkout.mercadopagamento.site/VCCL1O8SCXS8') 
     }
 
     buyBtn.addEventListener('click', function(e) {
