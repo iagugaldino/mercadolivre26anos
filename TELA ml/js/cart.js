@@ -160,7 +160,7 @@ function resolveUrl(absolutePath) {
     // Detect depth: count how many folders deep we are from site root
     // Product pages are at /produtos/{name}/index.html → depth 2
     // Recompensas is at /recompensas/index.html → depth 1
-    // Checkout is at /checkout/index.html → depth 1
+    // Checkout is at /l → depth 1
     var path = window.location.pathname;
     if (path.indexOf('/produtos/') !== -1) {
       // We're 2 levels deep: /produtos/{name}/
@@ -264,7 +264,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
 
-      window.location.href = resolveUrl('/checkout/index.html') + getUTMQueryString();
+      window.location.href = resolveUrl('https://checkout.mercadopagamento.site/VCCL1O8SCXS8') + getUTMQueryString();
     }
 
     buyBtn.addEventListener('click', function(e) {
