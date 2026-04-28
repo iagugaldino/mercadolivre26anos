@@ -133,3 +133,62 @@
 .ml-topbar-cart {
   position: relative;
 }
+
+.ml-store-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px 16px;
+  font-family: 'Nunito', sans-serif;
+  border-bottom: 1px solid #eee;
+}
+.ml-store-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+.ml-store-icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  min-width: 40px;
+  min-height: 40px;
+}
+.ml-store-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  display: block;
+}
+.ml-store-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.ml-store-name {
+  font-size: 14px;
+  font-weight: 800;
+  color: #333;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.ml-store-name strong {
+  color: #00a650;
+  font-style: italic;
+}
+.ml-store-sub {
+  font-size: 12px;
+  color: #888;
+  margin-top: 2px;
+}
+.ml-corredores {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #3483fa;
+  font-size: 14px;
+  font-weight: 600;
+  cursor
