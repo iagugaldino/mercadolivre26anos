@@ -140,3 +140,54 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+
+
+.ml-topbar {
+  display: flex;
+  align-items: center;
+  background: #ffe600;
+  padding: 8px 16px;
+  gap: 12px;
+}
+.ml-topbar-logo {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+}
+.ml-topbar-logo img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  display: block;
+}
+.ml-topbar-search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 4px;
+  padding: 8px 12px;
+  gap: 8px;
+}
+.ml-topbar-search input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  color: #333;
+  width: 100%;
+  background: transparent;
+}
+.ml-topbar-search input::placeholder {
+  color: #bbb;
+}
+.ml-topbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+.ml-topbar-cart {
+  position: relative;
+}
