@@ -97,14 +97,17 @@
   gap: 10px;
 }
 .ml-store-icon {
-  border-radius: 8px;
   width: 42px;
   height: 42px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-shrink: 0;
+  border-radius: 8px;
   overflow: hidden;
+}
+.ml-store-icon img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  display: block;
 }
 .ml-store-name {
   font-size: 14px;
