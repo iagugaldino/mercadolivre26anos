@@ -83,6 +83,33 @@
 .ml-cep-arrow { margin-left: auto; }
 
 
+.price-section {
+  font-family: 'Nunito', sans-serif;
+}
+.old-price {
+  font-size: 13px;
+  color: #999;
+  text-decoration: line-through;
+}
+.price-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.new-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+.discount-tag {
+  background: #00a650;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
 
 .ml-topbar {
   display: flex;
