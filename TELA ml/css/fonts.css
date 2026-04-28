@@ -23,3 +23,46 @@
     font-family: 'GellixSemiBold';
     src: url('../fonts/GellixSemiBold.otf') format('truetype');
 }
+.ml-badge {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px 20px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  font-family: 'Nunito', sans-serif;
+}
+.ml-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 2px;
+}
+.ml-trophy { color: #00a650; font-size: 16px; }
+.ml-title { color: #00a650; font-size: 15px; font-weight: 700; }
+.ml-subtitle { color: #999; font-size: 12px; margin-bottom: 12px; margin-left: 22px; }
+.ml-bar-track {
+  display: flex;
+  height: 6px;
+  border-radius: 4px;
+  overflow: hidden;
+  gap: 3px;
+  margin-bottom: 14px;
+}
+.ml-bar-seg { flex: 1; border-radius: 3px; }
+.ml-bar-seg.red    { background: #f23d4f; }
+.ml-bar-seg.orange { background: #f5a623; opacity: 0.4; }
+.ml-bar-seg.yellow { background: #f5d020; opacity: 0.4; }
+.ml-bar-seg.green  { background: #00a650; }
+.ml-metrics {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  gap: 8px;
+}
+.ml-metric { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.ml-metric svg { color: #555; }
+.ml-metric-value { font-size: 14px; font-weight: 800; color: #333; line-height: 1; }
+.ml-metric-label { font-size: 11px; color: #888; line-height: 1.2; }
+.ml-divider { width: 1px; height: 40px; background: #eee; align-self: center; }
