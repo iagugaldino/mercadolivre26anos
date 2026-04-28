@@ -102,12 +102,13 @@
   color: #333;
 }
 .discount-tag {
-  background: #00a650;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  padding: 2px 6px;
-  border-radius: 3px;
+  background: #00a650 !important;
+  color: #ffffff !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  padding: 2px 6px !important;
+  border-radius: 3px !important;
+  display: inline-block !important;
 }
 
 
