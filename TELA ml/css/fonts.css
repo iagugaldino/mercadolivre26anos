@@ -152,12 +152,12 @@
 }
 .ml-topbar-logo {
   flex-shrink: 0;
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
 }
 .ml-topbar-logo img {
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   object-fit: contain;
   display: block;
 }
